@@ -1,0 +1,56 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 Satomichi Nishihara [nisihara225@gmail.com]
+  -->
+  <MOL_INFO>
+    Aqueous carbonate ion.
+    (J.Wang et al., American Mineralogist, 2009, 94, 380–386)
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="18Nov2016"
+              comment="CO3--(aq)"
+              formula="CO3--"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="4"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    60.0089
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="4" columns="1" len="5">
+C/co3
+O/co3
+O/co3
+O/co3
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     0.00000000
+     1.30000000     0.00000000     0.00000000
+    -0.65000000     1.12583302     0.00000000
+    -0.65000000    -1.12583302     0.00000000
+     CO = 1.3A
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="4" columns="1">
+   +1.123
+   -1.041
+   -1.041
+   -1.041
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="4" columns="1" UNITS="kJ/mol">
+      0.24112
+      0.65030
+      0.65030
+      0.65030
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
+      2.7850
+      3.1655
+      3.1655
+      3.1655
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+
