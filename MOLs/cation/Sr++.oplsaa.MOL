@@ -4,6 +4,15 @@
   -->
   <MOL_INFO>
     Aqueous strontium ion (OPLS-AA).
+    -----------------------------------------------------------------
+    OPLS-AA parameters:
+      W.L.Jorgensen et al., J. Am. Chem. Soc. 1996, 118, 11225-11236.
+      W.Damm et al., J. Comput. Chem. 1997, 18, 1955-1970.
+      W.L.Jorgensen et al., Theochem 1998, 424, 145-155.
+      W.L.Jorgensen et al., J. Phys. Chem. B 1998, 102, 8049-8059.
+      R.C.Rizzo et al., J. Am. Chem. Soc. 1999, 121, 4827-4836.
+      E.K.Watkins et al., J. Phys. Chem. A 2001, 105, 4118-4125.
+    -----------------------------------------------------------------
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
               date="15Nov2016"

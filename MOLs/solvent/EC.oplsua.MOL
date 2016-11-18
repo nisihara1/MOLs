@@ -3,7 +3,7 @@
     Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
   -->
   <MOL_INFO>
-    Ethylene Carbonate (OPLS-UA),
+    Ethylene Carbonate (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.)
     whose geometry is calculated by M06-2X/def2-SVPD.
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"

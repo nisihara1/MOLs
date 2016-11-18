@@ -3,7 +3,7 @@
     Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
   -->
   <MOL_INFO>
-    Acetone (OPLS-UA),
+    Acetone (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.)
     whose geometry is calculated by M06-2X/def2-TZVPPD.
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
@@ -20,8 +20,8 @@
     0.7845
   </MOL_DENSITY>
   <MOL_ELEMENT type="character" size="4" columns="1" len="6">
-O/ac  
-C/ac  
+O/ac
+C/ac
 CH3/ac
 CH3/ac
   </MOL_ELEMENT>
