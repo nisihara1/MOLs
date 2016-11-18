@@ -1,0 +1,66 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Methanol (OPLS-AA),
+    although Lennad-Jones parameters of hydrogen (HO-) are modified
+    and its geometry is calculated by M06-2X/def2-TZVPPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="Methanol"
+              formula="CH3OH"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="6"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    32.04186
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.7918 
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="6" columns="1" len="5">
+C/me 
+HC/me
+HC/me
+HC/me
+O/me 
+HO/me
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="18" columns="3" UNITS="angstrom">
+    -0.00620103     0.56850213     0.00117881
+    -0.54361653     0.88006735    -0.89790458
+    -0.57323306     0.88179671     0.88127000
+     0.95743820     1.07222664     0.01672985
+     0.25502976    -0.82044003     0.00687784
+    -0.57648208    -1.29634101    -0.00652182
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="6" columns="1">
+    +0.145
+    +0.040
+    +0.040
+    +0.040
+    -0.683
+    +0.418
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="6" columns="1" UNITS="kcal/mol">
+      0.066
+      0.030
+      0.030
+      0.030
+      0.170
+      0.046
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="6" columns="1" UNITS="angstrom">
+      3.500
+      2.500
+      2.500
+      2.500
+      3.120
+      1.000
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

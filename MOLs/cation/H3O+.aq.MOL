@@ -1,0 +1,55 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Hydronium ion (D.J.Bonthuls et al., JCP 2016, 144, 104503),
+    although Lennad-Jones parameters of hydrogen are modified.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="H3O+(aq)"
+              formula="H3O+"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="4"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    19.02322
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="4" columns="1" len="5">
+O/h3o
+H/h3o
+H/h3o
+H/h3o
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
+     0.000000   0.000000   0.000000
+     0.934818   0.000000  -0.294134
+    -0.467409   0.809576  -0.294134
+    -0.467409  -0.809576  -0.294134
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="4" columns="1">
+    -1.4
+    +0.8
+    +0.8
+    +0.8
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="4" columns="1" UNITS="kcal/mol">
+      0.1911
+      0.0460
+      0.0460
+      0.0460
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
+      3.1000
+      1.0000
+      1.0000
+      1.0000
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

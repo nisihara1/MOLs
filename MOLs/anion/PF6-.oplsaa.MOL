@@ -1,0 +1,70 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Hexafluorophosphate ion (OPLS-AA),
+    whose geometry is calculated by M06-2X/def2-TZVPPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="PF6-"
+              formula="PF6-"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="7"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+   144.96416
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="7" columns="1" len="5">
+P/pf6
+F/pf6
+F/pf6
+F/pf6
+F/pf6
+F/pf6
+F/pf6
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="21" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     0.00000000
+     0.00000000     1.61275711     0.00000000
+     0.00000000    -1.61275711     0.00000000
+     0.00000000     0.00000000     1.61275711
+     0.00000000     0.00000000    -1.61275711
+     1.61275711     0.00000000     0.00000000
+    -1.61275711     0.00000000     0.00000000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="7" columns="1">
+    +1.34
+    -0.39
+    -0.39
+    -0.39
+    -0.39
+    -0.39
+    -0.39
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="7" columns="1" UNITS="kcal/mol">
+      0.200
+      0.061
+      0.061
+      0.061
+      0.061
+      0.061
+      0.061
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="7" columns="1" UNITS="angstrom">
+      3.7400
+      3.1181
+      3.1181
+      3.1181
+      3.1181
+      3.1181
+      3.1181
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

@@ -1,0 +1,61 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Sulfate ion (OPLS-AA),
+    whose geometry is calculated by M06-2X/def2-TZVPPD.
+    Parameters of sulfone are used.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="SO4--(aq)"
+              formula="SO4--"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="5"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    96.0636
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="5" columns="1" len="5">
+S/so4
+O/so4
+O/so4
+O/so4
+O/so4
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="15" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     0.00000000
+     0.86146514     0.86146514     0.86146514
+    -0.86146514    -0.86146514     0.86146514
+     0.86146514    -0.86146514    -0.86146514
+    -0.86146514     0.86146514    -0.86146514
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="5" columns="1">
+   +1.3740
+   -0.8435
+   -0.8435
+   -0.8435
+   -0.8435
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="5" columns="1" UNITS="kcal/mol">
+      0.25
+      0.17
+      0.17
+      0.17
+      0.17
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="5" columns="1" UNITS="angstrom">
+      3.55
+      2.96
+      2.96
+      2.96
+      2.96
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

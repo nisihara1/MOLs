@@ -1,0 +1,45 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Hydroxide ion (D.J.Bonthuls et al., JCP 2016, 144, 104503),
+    although Lennad-Jones parameters of hydrogen are modified.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="OH-(aq)"
+              formula="OH-"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="2"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    17.00734
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="2" columns="1" len="4">
+O/oh
+H/oh
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="6" columns="3" UNITS="angstrom">
+     0.000  0.000  0.000
+     1.000  0.000  0.000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="2" columns="1">
+    -1.0
+     0.0
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="2" columns="1" UNITS="kcal/mol">
+      0.0119
+      0.0460
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="2" columns="1" UNITS="angstrom">
+      3.8100
+      1.0000
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

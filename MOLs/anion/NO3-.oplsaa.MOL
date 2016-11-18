@@ -1,0 +1,55 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Nitrate ion (OPLS-AA),
+    whose geometry is calculated by M06-2X/def2-TZVPPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="NO3-(aq)"
+              formula="NO3-"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="4"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    62.00494
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="4" columns="1" len="5">
+N/no3
+O/no3
+O/no3
+O/no3
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     0.00000000
+     0.88046704     0.88046704     0.00000000
+    -1.20274035     0.32227330     0.00000000
+     0.32227330    -1.20274035     0.00000000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="4" columns="1">
+    +0.794
+    -0.598
+    -0.598
+    -0.598
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="4" columns="1" UNITS="kcal/mol">
+      0.170
+      0.210
+      0.210
+      0.210
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
+      3.150
+      2.860
+      2.860
+      2.860
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

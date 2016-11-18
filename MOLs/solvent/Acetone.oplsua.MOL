@@ -1,0 +1,55 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Acetone (OPLS-UA),
+    whose geometry is calculated by M06-2X/def2-TZVPPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="17Nov2016"
+              comment="Acetone"
+              formula="CH3COCH3"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="4"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    58.07914
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.7845
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="4" columns="1" len="6">
+O/ac  
+C/ac  
+CH3/ac
+CH3/ac
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000    -1.39460832
+     0.00000000     0.00000000    -0.19055871
+     1.28279536     0.00000000     0.60616516
+    -1.28279536     0.00000000     0.60616516
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="4" columns="1">
+    -0.424
+    +0.300
+    +0.062
+    +0.062
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="4" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.160
+      0.160
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      3.910
+      3.910
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

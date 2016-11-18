@@ -1,0 +1,81 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Ethanol (OPLS-AA),
+    although Lennad-Jones parameters of hydrogen (HO-) are modified
+    and its geometry is calculated by M06-2X/def2-TZVPPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="15Nov2016"
+              comment="Ethanol"
+              formula="C2H5OH"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="9"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    46.06844
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.789
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="9" columns="1" len="5">
+C2/et
+C1/et
+H2/et
+H2/et
+H2/et
+H1/et
+H1/et
+O/et 
+HO/et
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="27" columns="3" UNITS="angstrom">
+    -0.15329132    -1.20449407     0.00000000
+     0.52122770     0.14806752     0.00000000
+    -0.78175717    -1.31105714     0.88325221
+     0.58886063    -2.00228396     0.00000000
+    -0.78175717    -1.31105714    -0.88325221
+     1.15730788     0.25227354    -0.88474460
+     1.15730788     0.25227354     0.88474460
+    -0.49452384     1.13851228     0.00000000
+    -0.09079379     2.00792208     0.00000000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="9" columns="1">
+    -0.170
+    +0.145
+    +0.070
+    +0.070
+    +0.070
+    +0.040
+    +0.040
+    -0.683
+    +0.418
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="9" columns="1" UNITS="kcal/mol">
+      0.066
+      0.066
+      0.030
+      0.030
+      0.030
+      0.030
+      0.030
+      0.170
+      0.046
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="9" columns="1" UNITS="angstrom">
+      3.500
+      3.500
+      2.500
+      2.500
+      2.500
+      2.500
+      2.500
+      3.120
+      1.000
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

@@ -1,0 +1,70 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Propylene Carbonate (OPLS-UA),
+    whose geometry is calculated by M06-2X/def2-SVPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="17Nov2016"
+              comment="Propylene carbonate"
+              formula="C4H6O3"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="7"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    102.08864
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    1.205
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="7" columns="1" len="6">
+O=C/pc
+C=O/pc
+O-2/pc
+O-1/pc
+CH2/pc
+CH/pc 
+CH3/pc
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="21" columns="3" UNITS="angstrom">
+    -0.61832971     2.29567397    -0.15811822
+    -0.19027081     1.20017209    -0.01475963
+     1.11573979     0.86791245    -0.07760329
+    -0.93144910     0.10417345     0.23476909
+     1.28783431    -0.53472610     0.04345974
+    -0.11163639    -1.04762150     0.43551712
+    -0.61575926    -2.20032200    -0.40258979
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="7" columns="1">
+    -0.500
+    +0.860
+    -0.450
+    -0.450
+    +0.270
+    +0.270
+     0.000
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="7" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.170
+      0.170
+      0.118
+      0.080
+      0.160
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="7" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      3.000
+      3.000
+      3.905
+      3.850
+      3.910
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

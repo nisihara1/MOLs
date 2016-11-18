@@ -1,0 +1,65 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Ethylene Carbonate (OPLS-UA),
+    whose geometry is calculated by M06-2X/def2-SVPD.
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="17Nov2016"
+              comment="Ethylene carbonate"
+              formula="C3H4O3"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="6"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    88.06206
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    1.3210
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="6" columns="1" len="6">
+O=C/ec
+C=O/ec
+O-C/ec
+O-C/ec
+CH2/ec
+CH2/ec
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="18" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     2.03801982
+     0.00000000     0.00000000     0.85375212
+     0.00000000     1.10391246     0.08021397
+     0.00000000    -1.10391246     0.08021397
+     0.00000000     0.77104195    -1.29939650
+     0.00000000    -0.77104195    -1.29939650
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="6" columns="1">
+    -0.500
+    +0.860
+    -0.450
+    -0.450
+    +0.270
+    +0.270
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="6" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.170
+      0.170
+      0.118
+      0.118
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="6" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      3.000
+      3.000
+      3.905
+      3.905
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

@@ -1,0 +1,60 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 National Institute of Advanced Industrial Science and Technology (AIST)
+  -->
+  <MOL_INFO>
+    Aqueous sulfate ion.
+    (W.R.Cannon et al., J. Phys. Chem. 1994, 98, 6225)
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="17Nov2016"
+              comment="SO4--(aq)"
+              formula="SO4--"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="5"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    96.0636
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="5" columns="1" len="5">
+S/so4
+O/so4
+O/so4
+O/so4
+O/so4
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="15" columns="3" UNITS="angstrom">
+     0.00000000     0.00000000     0.00000000
+     0.86025190     0.86025190     0.86025190
+    -0.86025190    -0.86025190     0.86025190
+     0.86025190    -0.86025190    -0.86025190
+    -0.86025190     0.86025190    -0.86025190
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="5" columns="1">
+   +2.0
+   -1.0
+   -1.0
+   -1.0
+   -1.0
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="5" columns="1" UNITS="kcal/mol">
+      0.25
+      0.20
+      0.20
+      0.20
+      0.20
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="5" columns="1" UNITS="angstrom">
+      3.55
+      3.15
+      3.15
+      3.15
+      3.15
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+
