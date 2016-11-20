@@ -3,52 +3,52 @@
     Copyright (C) 2016 Satomichi Nishihara [nisihara225@gmail.com]
   -->
   <MOL_INFO>
-    Acetone (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
+    Chloroform (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
     whose geometry is calculated by M06-2X/def2-TZVPPD.
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
-              date="17Nov2016"
-              comment="Acetone"
-              formula="CH3COCH3"
+              date="20Nov2016"
+              comment="Chloroform"
+              formula="CHCl3"
               has_charge="T"
               has_lj="T"
               number_of_atoms="4"/>
   <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
-    58.07914
+    119.37674
   </MOL_MASS>
   <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
-    0.7845
+    1.489
   </MOL_DENSITY>
-  <MOL_ELEMENT type="character" size="4" columns="1" len="6">
-O/an
-C/an
-CH3/an
-CH3/an
+  <MOL_ELEMENT type="character" size="4" columns="1" len="5">
+CH/cf
+Cl/cf
+Cl/cf
+Cl/cf
   </MOL_ELEMENT>
   <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
-     0.00000000     0.00000000    -1.39460832
-     0.00000000     0.00000000    -0.19055871
-     1.28279536     0.00000000     0.60616516
-    -1.28279536     0.00000000     0.60616516
+     0.00000000    -0.00000000     0.58603773
+     1.18533694     1.18533694     0.04528209
+    -1.61920037     0.43386343     0.04528209
+     0.43386343    -1.61920037     0.04528209
   </MOL_XYZ>
   <MOL_CHARGE type="real" size="4" columns="1">
-    -0.424
-    +0.300
-    +0.062
-    +0.062
+    +0.420
+    -0.140
+    -0.140
+    -0.140
   </MOL_CHARGE>
   <MOL_LJ>
     <MOL_EPSILON type="real" size="4" columns="1" UNITS="kcal/mol">
-      0.210
-      0.105
-      0.160
-      0.160
+      0.080
+      0.300
+      0.300
+      0.300
     </MOL_EPSILON>
     <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
-      2.960
-      3.750
-      3.910
-      3.910
+      3.800
+      3.470
+      3.470
+      3.470
     </MOL_SIGMA>
   </MOL_LJ>
 </MOL>

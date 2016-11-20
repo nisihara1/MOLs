@@ -29,16 +29,16 @@
     0.7845
   </MOL_DENSITY>
   <MOL_ELEMENT type="character" size="10" columns="1" len="5">
-O/ac
-CO/ac
-CH/ac
-CH/ac
-H/ac
-H/ac
-H/ac
-H/ac
-H/ac
-H/ac
+O/an
+CO/an
+CH/an
+CH/an
+H/an
+H/an
+H/an
+H/an
+H/an
+H/an
   </MOL_ELEMENT>
   <MOL_XYZ type="real" size="30" columns="3" UNITS="angstrom">
      0.00000000     0.00000000    -1.39460832

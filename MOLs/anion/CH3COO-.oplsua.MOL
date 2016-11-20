@@ -3,52 +3,52 @@
     Copyright (C) 2016 Satomichi Nishihara [nisihara225@gmail.com]
   -->
   <MOL_INFO>
-    Acetone (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
-    whose geometry is calculated by M06-2X/def2-TZVPPD.
+    Acetate (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
+    whose geometry is calculated by M06-2X/def2-TZVPD.
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
-              date="17Nov2016"
-              comment="Acetone"
-              formula="CH3COCH3"
+              date="20Nov2016"
+              comment="CH3COO-(aq)"
+              formula="CH3COO-"
               has_charge="T"
               has_lj="T"
               number_of_atoms="4"/>
   <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
-    58.07914
+    59.04402
   </MOL_MASS>
-  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
-    0.7845
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
   </MOL_DENSITY>
   <MOL_ELEMENT type="character" size="4" columns="1" len="6">
-O/an
-C/an
-CH3/an
-CH3/an
+CH3/at
+C/at
+O/at
+O/at
   </MOL_ELEMENT>
   <MOL_XYZ type="real" size="12" columns="3" UNITS="angstrom">
-     0.00000000     0.00000000    -1.39460832
-     0.00000000     0.00000000    -0.19055871
-     1.28279536     0.00000000     0.60616516
-    -1.28279536     0.00000000     0.60616516
+    -0.06858294     1.34391958     0.00275363
+     0.00558325    -0.20726899     0.00652438
+     1.16121965    -0.68134435    -0.00102924
+    -1.08774788    -0.80987967    -0.00119474
   </MOL_XYZ>
   <MOL_CHARGE type="real" size="4" columns="1">
-    -0.424
-    +0.300
-    +0.062
-    +0.062
+   -0.100
+   +0.700
+   -0.800
+   -0.800
   </MOL_CHARGE>
   <MOL_LJ>
     <MOL_EPSILON type="real" size="4" columns="1" UNITS="kcal/mol">
-      0.210
+      0.160
       0.105
-      0.160
-      0.160
+      0.210
+      0.210
     </MOL_EPSILON>
     <MOL_SIGMA type="real" size="4" columns="1" UNITS="angstrom">
-      2.960
+      3.910
       3.750
-      3.910
-      3.910
+      2.960
+      2.960
     </MOL_SIGMA>
   </MOL_LJ>
 </MOL>

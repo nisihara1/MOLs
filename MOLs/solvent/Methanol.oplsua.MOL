@@ -3,7 +3,7 @@
     Copyright (C) 2016 Satomichi Nishihara [nisihara225@gmail.com]
   -->
   <MOL_INFO>
-    Methanol (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.)
+    Methanol (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
     although Lennad-Jones parameters of hydrogen (HO-) are modified
     and its geometry is calculated by M06-2X/def2-TZVPPD.
   </MOL_INFO>
