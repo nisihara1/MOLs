@@ -6,6 +6,8 @@
     Methanol (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
     although Lennad-Jones parameters of hydrogen (HO-) are modified
     and its geometry is calculated by M06-2X/def2-TZVPPD.
+    The parameters of H2O/SPC are substituted
+    (M.Matsugami et al., J. Chem. Phys. 2014, 140, 104511).
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
               date="17Nov2016"

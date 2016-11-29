@@ -6,6 +6,8 @@
     Ammonium ion (OPLS-AA),
     although Lennad-Jones parameters of hydrogen are modified
     and its geometry is calculated by M06-2X/def2-TZVPPD.
+    The parameters of H2O/SPC are substituted
+    (M.Matsugami et al., J. Chem. Phys. 2014, 140, 104511).
     -----------------------------------------------------------------
     OPLS-AA parameters:
       W.L.Jorgensen et al., J. Am. Chem. Soc. 1996, 118, 11225-11236.

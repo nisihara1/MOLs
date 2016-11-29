@@ -5,6 +5,8 @@
   <MOL_INFO>
     Hydronium ion (D.J.Bonthuls et al., JCP 2016, 144, 104503),
     although Lennad-Jones parameters of hydrogen are modified.
+    The parameters of H2O/SPC are substituted
+    (M.Matsugami et al., J. Chem. Phys. 2014, 140, 104511).
   </MOL_INFO>
   <MOL_HEADER author="S.Nishihara"
               date="15Nov2016"
