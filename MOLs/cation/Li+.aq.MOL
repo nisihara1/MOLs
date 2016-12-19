@@ -1,0 +1,40 @@
+<MOL version="1.0.0">
+  <!--
+    Copyright (C) 2016 Satomichi Nishihara [nisihara225@gmail.com]
+  -->
+  <MOL_INFO>
+    Aqueous litium ion.
+    (S.Koneshan et al., Phys. Chem. B 1998, 102, 4193)
+  </MOL_INFO>
+  <MOL_HEADER author="S.Nishihara"
+              date="19Dec2016"
+              comment="Li+(aq)"
+              formula="Li+"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="1"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    6.941
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_ELEMENT type="character" size="1" columns="1" len="2">
+Li
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="3" columns="3" UNITS="angstrom">
+     0.00000  0.00000  0.00000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="1" columns="1">
+    +1.0000
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="1" columns="1" UNITS="kJ/mol">
+      0.6904
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="1" columns="1" UNITS="angstrom">
+      1.505
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+
