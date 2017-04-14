@@ -21,6 +21,9 @@
   <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
     1.0
   </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    0.0
+  </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="2" columns="1" len="4">
 O/oh
 H/oh

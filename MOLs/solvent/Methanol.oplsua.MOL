@@ -22,6 +22,9 @@
   <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
     0.7918
   </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    0.0
+  </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="3" columns="1" len="6">
 CH3/me
 O/me
