@@ -32,7 +32,7 @@
     0.789
   </MOL_DENSITY>
   <MOL_PERMITTIVITY type="real" size="1" columns="1">
-    0.0
+    24.852
   </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="9" columns="1" len="5">
 C2/et

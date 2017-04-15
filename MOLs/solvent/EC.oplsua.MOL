@@ -20,7 +20,7 @@
     1.3210
   </MOL_DENSITY>
   <MOL_PERMITTIVITY type="real" size="1" columns="1">
-    0.0
+    89.6
   </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="6" columns="1" len="6">
 O=C/ec

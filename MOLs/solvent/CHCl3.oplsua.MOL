@@ -20,7 +20,7 @@
     1.489
   </MOL_DENSITY>
   <MOL_PERMITTIVITY type="real" size="1" columns="1">
-    0.0
+    4.7113
   </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="4" columns="1" len="5">
 CH/cf

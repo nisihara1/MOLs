@@ -29,7 +29,7 @@
     0.7845
   </MOL_DENSITY>
   <MOL_PERMITTIVITY type="real" size="1" columns="1">
-    0.0
+    20.493
   </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="10" columns="1" len="5">
 O/an

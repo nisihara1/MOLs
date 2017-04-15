@@ -20,7 +20,7 @@
     1.205
   </MOL_DENSITY>
   <MOL_PERMITTIVITY type="real" size="1" columns="1">
-    0.0
+    65.0
   </MOL_PERMITTIVITY>
   <MOL_ELEMENT type="character" size="7" columns="1" len="6">
 O=C/pc
