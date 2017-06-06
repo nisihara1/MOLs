@@ -1,0 +1,50 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    AN, acetonitrile (OPLS-UA: B.Eckl et al., J. Phys. Chem B, 2008, 112, 12710-12721.),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="05Jun2017"
+              comment="acetonitrile"
+              formula="CH3CN"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="3"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    41.053
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.783
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    37.5
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="3" columns="1" len="7">
+N/an
+C/an
+CH3/an
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="9" columns="3" UNITS="angstrom">
+        0.000000    1.436286    0.000000
+        0.000000    0.281020    0.000000
+        0.000000   -1.181916    0.000000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="3" columns="1">
+    -0.26
+    -0.12
+     0.38
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="3" columns="1" UNITS="kcal/mol">
+      0.105
+      0.021
+      0.324
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="3" columns="1" UNITS="angstrom">
+      3.368
+      2.810
+      3.835
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

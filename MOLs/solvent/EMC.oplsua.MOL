@@ -1,0 +1,77 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    EMC, ethyl methyl carbonate (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="30May2017"
+              comment="diethyl carbonate"
+              formula="C4H8O3"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="7"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    104.105
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.997
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    2.93
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="7" columns="1" len="9">
+O=C/dec
+C/dec
+O-CH2/dec
+O-CH3/dec
+CH2/dec
+CH3-O/dec
+CH3-C/dec
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="21" columns="3" UNITS="angstrom">
+        0.724590    1.341883    0.000000
+        0.539567    0.148858   -0.000000
+       -0.646553   -0.458779   -0.000000
+        1.493934   -0.784763   -0.000000
+       -1.775895    0.433580    0.000000
+        2.824168   -0.259849    0.000000
+       -3.020797   -0.423551    0.000000
+       -1.714590    1.073930    0.887800
+       -1.714590    1.073930   -0.887800
+       -3.907517    0.220758    0.000000
+       -3.050295   -1.060890   -0.890700
+       -3.050295   -1.060890    0.890700
+        2.989380    0.352084   -0.893000
+        3.480496   -1.131978    0.000000
+        2.989380    0.352100    0.893000
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="7" columns="1">
+    -0.40
+    +0.55
+    -0.47
+    -0.48
+     0.45
+     0.29
+     0.06
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="7" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.140
+      0.140
+      0.118
+      0.160
+      0.160
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="7" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      2.900
+      2.900
+      3.800
+      3.910
+      3.910
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>

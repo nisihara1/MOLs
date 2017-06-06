@@ -1,0 +1,86 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    bis trifluorosulfuryl imide anion (OPLS-UA),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+    -----------------------------------------------------------------
+    OPLS-UA parameters:
+      W.L.Jorgensen et al., J. Am. Chem. Soc. 1996, 118, 11225-11236.
+      J.N.C.Lopes et al., J. Phys. Chem. B 2008, 112, 9449-9455.
+      E.K.Watkins et al., J. Phys. Chem. A 2001, 105, 4118-4125.
+    -----------------------------------------------------------------
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="02Jun2017"
+              comment="TFSI-"
+              formula="N(SO2CF3)2-"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="9"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+   280.1461
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    0.0
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="9" columns="1" len="8">
+N/tfsi
+S/tfsi
+S/tfsi
+O1/tfsi
+O2/tfsi
+O1/tfsi
+O2/tfsi
+CF3/tfsi
+CF3/tfsi
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="27" columns="3" UNITS="angstrom">
+        0.000000    0.000000    0.928579
+       -0.786574    1.171531    0.126771
+        0.786574   -1.171531    0.126771
+       -1.213959    0.875865   -1.251532
+       -1.739625    1.797996    1.060080
+        1.213959   -0.875865   -1.251532
+        1.739625   -1.797996    1.060080
+        0.524121    2.486364   -0.072526
+       -0.524121   -2.486364   -0.072526
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="9" columns="1">
+    -1.02
+    +1.96
+    +1.96
+    -0.88
+    -0.88
+    -0.88
+    -0.88
+    -0.19
+    -0.19
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="9" columns="1" UNITS="kcal/mol">
+      0.170
+      0.250
+      0.250
+      0.210
+      0.210
+      0.210
+      0.210
+      0.155
+      0.155
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="9" columns="1" UNITS="angstrom">
+      3.2500
+      3.5500
+      3.5500
+      2.9600
+      2.9600
+      2.9600
+      2.9600
+      3.8000
+      3.8000
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

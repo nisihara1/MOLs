@@ -1,0 +1,74 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    DEC, diethyl carbonate (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="30May2017"
+              comment="diethyl carbonate"
+              formula="OC(C2H5O)2"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="8"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    118.131
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    0.9752
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    2.8
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="8" columns="1" len="7">
+O=C/dec
+C/dec
+O-C/dec
+O-C/dec
+CH2/dec
+CH2/dec
+CH3/dec
+CH3/dec
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="24" columns="3" UNITS="angstrom">
+        0.000000    0.000000    1.560930
+        0.000000    0.000000    0.353363
+        0.000000    1.082938   -0.425661
+        0.000000   -1.082938   -0.425661
+        0.000000    2.332650    0.287295
+        0.000000   -2.332650    0.287295
+        0.000000    3.435518   -0.746400
+        0.000000   -3.435518   -0.746400
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="8" columns="1">
+    -0.38
+    +0.42
+    -0.52
+    -0.52
+     0.43
+     0.43
+     0.07
+     0.07
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="8" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.140
+      0.140
+      0.118
+      0.118
+      0.160
+      0.160
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="8" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      2.900
+      2.900
+      3.800
+      3.800
+      3.910
+      3.910
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>

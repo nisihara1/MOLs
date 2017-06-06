@@ -1,0 +1,85 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    bis fluorosulfuryl imide anion (OPLS-AA),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+    -----------------------------------------------------------------
+    OPLS-AA parameters:
+      W.L.Jorgensen et al., J. Am. Chem. Soc. 1996, 118, 11225-11236.
+      J.N.C.Lopes et al., J. Phys. Chem. B 2008, 112, 9449-9455.
+    -----------------------------------------------------------------
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="06Jun2017"
+              comment="FSI-"
+              formula="N(SO2F)2-"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="9"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+   180.1311
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="mol/L">
+    1.0
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    0.0
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="9" columns="1" len="7">
+N/fsi
+S/fsi
+S/fsi
+O1/fsi
+O2/fsi
+O1/fsi
+O2/fsi
+F/fsi
+F/fsi
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="27" columns="3" UNITS="angstrom">
+        0.000000    0.000000    0.928146
+        0.000000    1.379929    0.093725
+       -0.000000   -1.379929    0.093725
+       -0.790902    1.398823   -1.137598
+       -0.103355    2.488218    1.042224
+        0.790902   -1.398823   -1.137598
+        0.103355   -2.488218    1.042224
+        1.547075    1.478572   -0.442792
+       -1.547075   -1.478572   -0.442792
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="9" columns="1">
+    -0.84
+    +1.98
+    +1.98
+    -0.765
+    -0.765
+    -0.765
+    -0.765
+    -0.53
+    -0.53
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="9" columns="1" UNITS="kcal/mol">
+      0.170
+      0.250
+      0.250
+      0.210
+      0.210
+      0.210
+      0.210
+      0.053
+      0.053
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="9" columns="1" UNITS="angstrom">
+      3.2500
+      3.5500
+      3.5500
+      2.9600
+      2.9600
+      2.9600
+      2.9600
+      2.9500
+      2.9500
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
+

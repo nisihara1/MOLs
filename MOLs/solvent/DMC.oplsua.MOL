@@ -1,0 +1,70 @@
+<MOL version="1.0.0">
+  <MOL_INFO>
+    DMC, dimethyl carbonate (OPLS-UA: W.L.Jorgensen et al., JACS, 1988, 110, 1657.),
+    whose geometry (& charge) is calculated by M062X/AUG-cc-pVDZ.
+  </MOL_INFO>
+  <MOL_HEADER author="J.Haruyama"
+              date="30May2017"
+              comment="dimethyl carbonate"
+              formula="OC(OCH3)2"
+              has_charge="T"
+              has_lj="T"
+              number_of_atoms="6"/>
+  <MOL_MASS type="real" size="1" columns="1" UNITS="g/mol">
+    90.078
+  </MOL_MASS>
+  <MOL_DENSITY type="real" size="1" columns="1" UNITS="g/cm^3">
+    1.0636
+  </MOL_DENSITY>
+  <MOL_PERMITTIVITY type="real" size="1" columns="1">
+    3.1
+  </MOL_PERMITTIVITY>
+  <MOL_ELEMENT type="character" size="6" columns="1" len="7">
+O=C/dmc
+C/dmc
+O-C/dmc
+O-C/dmc
+CH3/dmc
+CH3/dmc
+  </MOL_ELEMENT>
+  <MOL_XYZ type="real" size="18" columns="3" UNITS="angstrom">
+        0.000000    0.000000    1.267755
+        0.000000    0.000000    0.060776
+        0.000000    1.082480   -0.718612
+        0.000000   -1.082480   -0.718612
+        0.000000    2.319229    0.000002
+        0.000000   -2.319229    0.000002
+        0.893100    2.390420    0.629607
+       -0.893100    2.390420    0.629607
+        0.000000    3.098954   -0.763670
+        0.000000   -3.098954   -0.763670
+       -0.893100   -2.390420    0.629607
+        0.893100   -2.390420    0.629607
+  </MOL_XYZ>
+  <MOL_CHARGE type="real" size="6" columns="1">
+    -0.42
+    +0.72
+    -0.46
+    -0.46
+     0.31
+     0.31
+  </MOL_CHARGE>
+  <MOL_LJ>
+    <MOL_EPSILON type="real" size="6" columns="1" UNITS="kcal/mol">
+      0.210
+      0.105
+      0.140
+      0.140
+      0.160
+      0.160
+    </MOL_EPSILON>
+    <MOL_SIGMA type="real" size="6" columns="1" UNITS="angstrom">
+      2.960
+      3.750
+      2.900
+      2.900
+      3.910
+      3.910
+    </MOL_SIGMA>
+  </MOL_LJ>
+</MOL>
